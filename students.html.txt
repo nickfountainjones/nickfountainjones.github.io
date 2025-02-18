@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Students | Fountain-Jones Lab</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Reuse the same navigation -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="students.html" class="active">Students</a></li>
+      <li><a href="publications.html">Publications</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Our Students</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Current Graduate Students</h2>
+      <article class="student-profile">
+        <img src="https://via.placeholder.com/150" alt="Student Name" />
+        <h3>Student Name</h3>
+        <p>
+          Student Name is a PhD candidate studying pathogen evolution 
+          in wildlife populations. Their current project focuses on 
+          the genetic diversity of viruses in bat populations.
+        </p>
+      </article>
+
+      <article class="student-profile">
+        <img src="https://via.placeholder.com/150" alt="Student 2 Name" />
+        <h3>Student 2 Name</h3>
+        <p>
+          Student 2 is a master's student exploring host-microbiome 
+          interactions in urban environments.
+        </p>
+      </article>
+    </section>
+
+    <section>
+      <h2>Undergraduate Researchers</h2>
+      <ul>
+        <li>Undergrad 1: Studying disease ecology in local rodent populations.</li>
+        <li>Undergrad 2: Assisting with field data collection and lab management.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 The Fountain-Jones Lab</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Publications | Fountain-Jones Lab</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="students.html">Students</a></li>
+      <li><a href="publications.html" class="active">Publications</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Publications</h1>
+  </header>
+
+  <main>
+    <p>
+      For a complete list of our papers, visit our 
+      <a href="https://scholar.google.com/citations?user=OV-PyoQAAAAJ&hl=en" target="_blank">
+        Google Scholar Profile
+      </a>.
+    </p>
+
+    <h2>Selected Recent Publications</h2>
+    <ol>
+      <li>
+        Author A, Author B, <strong>Fountain-Jones N</strong>. (2025). 
+        <em>Title of the Paper.</em> Journal of Evolutionary One Health, 12(3), 123–130.
+      </li>
+      <li>
+        <strong>Fountain-Jones N</strong>, Author C. (2024). 
+        <em>Another Fascinating Paper Title.</em> EcoHealth, 15(2), 99–110.
+      </li>
+      <!-- Add more if you like -->
+    </ol>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 The Fountain-Jones Lab</p>
+  </footer>
+</body>
+</html>
