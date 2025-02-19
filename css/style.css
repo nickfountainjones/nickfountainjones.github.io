@@ -63,6 +63,12 @@ header img {
   width: 100%;        /* Let it shrink if the screen is smaller than 800px */
   height: 400px;       /* Maintains aspect ratio */
 }
+.profile-pic {
+  width: 100%;        /* Make it scale to the sidebar's width, or set a fixed width like 80% or 150px */
+  border-radius: 50%; /* This makes the image circular if it's roughly square to begin with */
+  display: block;
+  margin: 0 auto 1rem; /* Center it horizontally, add some bottom space */
+}
 
 /* Main content */
 main {
