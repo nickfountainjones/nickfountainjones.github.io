@@ -70,7 +70,7 @@ header img {
   background-color: #fafafa;
   padding: 1rem;
   min-height: 100vh;         /* Fill the full height of the viewport (optional) */
-  border-right: 1px solid #ccc;
+ 
 }
 .profile-pic {
   width: 150px;       /* Fixed pixel width (adjust as you like) */
