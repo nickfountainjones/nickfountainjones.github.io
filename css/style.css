@@ -64,11 +64,11 @@ header img {
   height: 400px;       /* Maintains aspect ratio */
 }
 .profile-pic {
-  width: 100px;
-  height: 100px;        /* Make it scale to the sidebar's width, or set a fixed width like 80% or 150px */
-  border-radius: 50%; /* This makes the image circular if it's roughly square to begin with */
-  display: block;
-  margin: 0 auto 1rem; /* Center it horizontally, add some bottom space */
+  width: 120px;       /* Fixed pixel width (adjust as you like) */
+  height: auto;       /* Keeps aspect ratio */
+  border-radius: 50%; /* Makes it circular if the original is roughly square */
+  display: block;     /* Removes inline spacing */
+  margin: 0 auto;     /* Center horizontally within the sidebar */
 }
 
 /* Main content */
