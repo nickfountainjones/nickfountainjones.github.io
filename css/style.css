@@ -63,12 +63,21 @@ header img {
   width: 100%;        /* Let it shrink if the screen is smaller than 800px */
   height: 400px;       /* Maintains aspect ratio */
 }
+/* Sidebar */
+.sidebar {
+  float: left;               /* Floats the sidebar on the left */
+  width: 250px;             /* Fixed width for sidebar */
+  background-color: #fafafa;
+  padding: 1rem;
+  min-height: 100vh;         /* Fill the full height of the viewport (optional) */
+  border-right: 1px solid #ccc;
+}
 .profile-pic {
-  width: 120px;       /* Fixed pixel width (adjust as you like) */
+  width: 150px;       /* Fixed pixel width (adjust as you like) */
   height: auto;       /* Keeps aspect ratio */
   border-radius: 50%; /* Makes it circular if the original is roughly square */
   display: block;     /* Removes inline spacing */
-  margin: 0 auto;     /* Center horizontally within the sidebar */
+  margin: 0 auto 1rem;     /* Center horizontally within the sidebar */
 }
 
 /* Main content */
