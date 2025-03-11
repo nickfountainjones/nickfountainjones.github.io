@@ -98,8 +98,11 @@ main {
   gap: 1rem;
 }
 .student-profile img {
-  max-width: 150px;
-  border-radius: 50%;
+  .student-profile img {
+    width: 200px;        /* same width & height for a square */
+    height: 200px;
+    object-fit: cover;   /* fills the square, cropping edges if needed */
+    display: block;      /* removes any inline spacing gaps */
 }
 .student-profile h3 {
   margin: 0 0 0.5rem;
