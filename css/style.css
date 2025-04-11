@@ -1,0 +1,117 @@
+/* Reset some default browser styles (optional) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+}
+
+/* Navigation bar */
+nav {
+  background-color: #333;
+  z-index: 1000;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+nav li {
+  margin-right: 1rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.75rem 1rem;
+  display: block;
+}
+nav a:hover {
+  background-color: #555;
+}
+nav a.active {
+  background-color: #555;
+}
+
+/* Header */
+header {
+  padding: 0;
+  margin: 0;
+  background: none;
+}
+header h1 {
+  margin-bottom: 0.5rem;
+}
+header h2 {
+  margin-top: 0.5rem;
+  font-style: italic;
+  color: #666;
+}
+header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; /* eliminates default inline spacing */
+}
+.fixed-banner {
+  max-width: 800px;   /* The image can’t exceed 800px wide */
+  width: 100%;        /* Let it shrink if the screen is smaller than 800px */
+  height: 400px;       /* Maintains aspect ratio */
+}
+/* Sidebar */
+.sidebar {
+  float: left;               /* Floats the sidebar on the left */
+  width: auto;             /* Fixed width for sidebar */
+  background-color: #fafafa;
+  padding: 1rem;
+  min-height: 100vh;         /* Fill the full height of the viewport (optional) */
+ 
+}
+.profile-pic {
+  width: 150px;       /* Fixed pixel width (adjust as you like) */
+  height: auto;       /* Keeps aspect ratio */
+  border-radius: 50%; /* Makes it circular if the original is roughly square */
+  display: block;     /* Removes inline spacing */
+  margin: 0 auto 1rem;     /* Center horizontally within the sidebar */
+}
+
+/* Main content */
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+/* Student Profile Cards */
+.student-profile {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+.student-profile img {
+    width: 200px;        /* same width & height for a square */
+    height: 200px;
+    object-fit: cover;   /* fills the square, cropping edges if needed */
+    display: block;      /* removes any inline spacing gaps */
+}
+.student-profile h3 {
+  margin: 0 0 0.5rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #ececec;
+  margin-top: 2rem;
+}
