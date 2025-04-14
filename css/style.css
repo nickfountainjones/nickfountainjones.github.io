@@ -80,6 +80,20 @@ header img {
   display: block;     /* Removes inline spacing */
   margin: 0 auto 1rem;     /* Center horizontally within the sidebar */
 }
+/* Targets the container holding the two images */
+.pi-photo-gallery {
+  text-align: center;  /* centers them horizontally in the container */
+  margin-bottom: 1rem; /* spacing below the gallery */
+}
+
+/* The images themselves */
+.pi-photo-gallery .pi-img {
+  display: inline-block;  /* show images side by side */
+  width: 200px;           /* or adjust as you prefer */
+  height: auto;           /* maintain aspect ratio */
+  margin: 0 1rem 1rem 0;  /* small spacing between images */
+  vertical-align: middle; /* align them nicely */
+}
 
 /* Main content */
 main {
