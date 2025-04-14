@@ -90,7 +90,7 @@ header img {
 .pi-photo-gallery .pi-img {
   display: inline-block;  /* show images side by side */
   width: 200px;           /* or adjust as you prefer */
-  height: auto;           /* maintain aspect ratio */
+  height: 200px;           /* maintain aspect ratio */
   margin: 0 1rem 1rem 0;  /* small spacing between images */
   vertical-align: middle; /* align them nicely */
 }
